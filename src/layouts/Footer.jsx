@@ -1,6 +1,8 @@
 import Logo from '../assets/images/logo.png'
 import FooterBg from '../assets/images/footer_bg.jpg'
 import { FaRocket } from "react-icons/fa6";
+import { FaMapMarkerAlt, FaHeadphones } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
 
@@ -9,12 +11,17 @@ const Footer = () => {
 
   return (
     <div style={{ backgroundImage: `url(${FooterBg})` }} className='bg-center bg-no-repeat'>
-      <div className="grid grid-cols-4 py-32 container mx-20">
-        <div className="">
+      <div className="grid grid-cols-4 py-32 container mx-auto  px-16">
+        <div className="font-Poppins">
           <img src={Logo} alt="" />
-          <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
+          <p className='text-footerText pt-10'>Gemas marketplace the relase etras thats sheets continig passag.</p>
+          <ul className='text-footerText space-y-2 mt-8 pr-4'>
+            <li ><FaMapMarkerAlt className='inline mr-2' />Address : PO Box W75 Street lan West new queens</li>
+            <li><FaHeadphones className='inline mr-2' />Phone : +24 1245 654 235</li>
+            <li><BiLogoGmail className='inline mr-2' />Email : info@exemple.com</li>
+          </ul>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 pl-20">
           <h2 className={titleStyle}>Products</h2>
           <span className='absolute h-[3px] w-8 bg-primary'></span>
           <ul className='pt-12 space-y-4 text-footerText font-Poppins text-[15px]'>
@@ -25,7 +32,7 @@ const Footer = () => {
             <li><a href="" className={listItemStyle}>Photography (3)</a></li>
           </ul>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 pl-10">
           <h2 className={titleStyle}>Need Help?</h2>
           <span className='absolute h-[3px] w-8 bg-primary'></span>
           <ul className='pt-12 space-y-4 text-footerText font-Poppins text-[15px]'>

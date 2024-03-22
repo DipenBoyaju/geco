@@ -4,7 +4,8 @@ const ReleasedGame = () => {
   return (
     <div className='container mx-auto'>
       <div className="py-28">
-        <Title />
+        <Title title="Released" subTitle="Games" />
+
       </div>
     </div>
   )

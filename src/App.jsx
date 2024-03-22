@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import RootLayout from "./layouts/RootLayout"
-import Contact from "./pages/Contact"
 import Home from "./pages/Home/Home"
+import Store from "./pages/Store"
+import Contact from "./pages/Contact/Contact"
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
       element: <RootLayout />,
       children: [
         { index: true, element: <Home /> },
+        { path: 'store', element: <Store /> },
         { path: 'contact', element: <Contact /> },
       ]
     }

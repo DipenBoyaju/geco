@@ -1,6 +1,8 @@
+import TitleBg from "../components/TitleBg"
+
 const Store = () => {
   return (
-    <div>Store</div>
+    <div><TitleBg title="Accessories" subTitle='Store' linkName='store' /></div>
   )
 }
 export default Store

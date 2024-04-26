@@ -27,7 +27,7 @@ const ReleasedGame = () => {
                 <p><span className='text-[#413b43]'>Controller:</span> Playstation 5, Xbox, PS4</p>
               </div>
               <p className='leading-7 pr-20'> Complete 100 players on a remote thats island for winner takes showdown issue</p>
-              <Button />
+              <Button sub="Buy Now" />
             </div>
           </div>
           <div className="space-y-8">

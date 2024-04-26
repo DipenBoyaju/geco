@@ -3,6 +3,7 @@ import FooterBg from '../assets/images/footer_bg.jpg'
 import { FaRocket } from "react-icons/fa6";
 import { FaMapMarkerAlt, FaHeadphones } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import Newsletter from './Newsletter';
 
 const Footer = () => {
 
@@ -10,7 +11,8 @@ const Footer = () => {
   const listItemStyle = 'cursor-pointer hover:text-primary hover:pl-2 transition-all duration-500';
 
   return (
-    <div style={{ backgroundImage: `url(${FooterBg})` }} className='bg-center bg-no-repeat'>
+    <div style={{ backgroundImage: `url(${FooterBg})` }} className='bg-center bg-no-repeat relative' >
+      <Newsletter />
       <div className="grid grid-cols-4 py-32 container mx-auto  px-16">
         <div className="font-Poppins">
           <img src={Logo} alt="" />

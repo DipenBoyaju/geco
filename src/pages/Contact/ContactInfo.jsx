@@ -3,7 +3,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const ContactInfo = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-20 lg:w-[35%]">
       <h1 className="uppercase text-[30px] font-extrabold text-title font-Oxaniumos">Contact Us About <span className="text-primary">Press</span></h1>
       <ul className="font-Poppins space-y-2 pt-4">
         <li className="text-sm text-textLight"><FaMapMarkerAlt className="inline text-primary mr-2" />Walking Park, Los Angeles, Brockland, USA</li>

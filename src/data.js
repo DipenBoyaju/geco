@@ -1,3 +1,4 @@
+
 const games = [
   {
     "id": 1,
@@ -17,7 +18,7 @@ const games = [
     "publisher": "Rockstar Games",
     "release_date": "April 14, 2015",
     "platform": "PC, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
-    "image": "https://example.com/gtav.jpg"
+    "image": "../src/assets/images/featured_game_thumb02.jpg"
   },
   {
     "id": 3,
@@ -27,7 +28,7 @@ const games = [
     "publisher": "Rockstar Games",
     "release_date": "October 26, 2018",
     "platform": "PC, PlayStation 4, Xbox One",
-    "image": "https://example.com/reddeadredemption2.jpg"
+    "image": "../src/assets/images/featured_game_thumb03.jpg"
   },
   {
     "id": 4,
@@ -37,7 +38,7 @@ const games = [
     "publisher": "Valve",
     "release_date": "August 21, 2012",
     "platform": "PC, macOS, Linux, PlayStation 3, Xbox 360",
-    "image": "https://example.com/csgo.jpg"
+    "image": "../src/assets/images/featured_game_thumb04.jpg"
   },
   {
     "id": 5,
@@ -47,7 +48,7 @@ const games = [
     "publisher": "Mojang Studios, Microsoft Studios",
     "release_date": "November 18, 2011",
     "platform": "PC, macOS, Linux, Android, iOS, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Nintendo Switch",
-    "image": "https://example.com/minecraft.jpg"
+    "image": "../src/assets/images/featured_game_thumb05.jpg"
   },
   {
     "id": 6,
@@ -57,7 +58,7 @@ const games = [
     "publisher": "Riot Games",
     "release_date": "October 27, 2009",
     "platform": "PC",
-    "image": "https://example.com/leagueoflegends.jpg"
+    "image": "../src/assets/images/featured_game_thumb06.jpg"
   },
   {
     "id": 7,

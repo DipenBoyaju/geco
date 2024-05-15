@@ -4,7 +4,7 @@ import games from '../../data'
 
 const FeaturedGame = () => {
   return (
-    <div>
+    <div className='py-20'>
       <Title title="Just Featured" subTitle="Games" />
       <div className="">
         <FeaturedGameCard />

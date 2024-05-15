@@ -6,10 +6,10 @@ import gamerbg from '../../assets/images/gamer_list_icon_bg.jpg'
 
 const GamersLeft = () => {
   return (
-    <div className='text-center items-center lg:w-5/12'>
+    <div className='text-center items-center lg:w-5/12 pt-28'>
       <div className="lg:text-left space-y-6">
         <h1 className="uppercase text-4xl font-extrabold text-white font-Oxaniumos">Just For  <span className="text-primary">Gamers</span></h1>
-        <p className="text-textDark font-Poppins text-[15px] lg:w-[38%] ">Compete with 100 player on a remote island for winner known issue where certain strategic</p>
+        <p className="text-textDark font-Poppins text-[15px] lg:w-[100%] ">Compete with 100 player on a remote island for winner known issue where certain strategic</p>
         <img src={seperator} alt="" className='' />
       </div>
       <div className="space-y-8 lg:pt-16 lg:space-y-10">

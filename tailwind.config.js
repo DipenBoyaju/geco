@@ -20,6 +20,9 @@ export default {
       fontFamily: {
         'Oxanium': ['Oxanium', 'cursive'],
         'Poppins': ['Poppins', 'sans-serif'],
+      },
+      animation: {
+        'spin-slow': 'spin 30s linear infinite',
       }
     },
   },

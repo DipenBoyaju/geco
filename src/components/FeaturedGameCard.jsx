@@ -1,4 +1,4 @@
-// import FeImage1 from '../assets/images/featured_game_thumb01.jpg'
+
 
 import { FaBell } from "react-icons/fa"
 

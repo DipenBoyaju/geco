@@ -2,11 +2,15 @@ import HeroBg from '../../assets/images/slider_bg02.jpg'
 import Button from '../../components/Button'
 import slider1 from '../../assets/images/slider_img01.png'
 import slider2 from '../../assets/images/slider_img02.png'
+import spin from '../../assets/images/slider_circle.png'
 
 const Hero = () => {
   return (
     <div style={{ backgroundImage: `url(${HeroBg})` }} className='h-svh relative'>
       <div className="flex items-center h-svh px-10 pt-32">
+        <div className="absolute z-10 items-center left-[30%]">
+          <img src={spin} alt="" className='w-[45vw] opacity-10 animate-spin-slow' />
+        </div>
         <div className="">
           <span className='uppercase text-primary text-2xl font-bold'>World Gaming</span>
           <h1 className='capitalize text-8xl font-bold text-white tracking-tighter'>Create <span className='text-primary '>Manage</span> Game</h1>
